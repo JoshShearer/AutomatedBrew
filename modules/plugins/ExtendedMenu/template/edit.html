@@ -1,0 +1,24 @@
+{% extends "ExtendedMenu.html" %}
+
+{% block title %}Edit Link{% endblock %}
+{% block content %} 
+
+<form action="/ExtendedMenu/submit" method="post">
+    <table class="table table-bordered">
+        <tr>
+            <th>Name</th>
+            <td><input name="name" id="name" type="text" value="{{data[0][1]}}"></td>
+        </tr>
+        <tr>
+            <th>Link</th>
+            <td><input name="link" id="link" type="text" value="{{data[0][2]}}"></td>
+        </tr>
+        <tr>
+            <th>Target</th>
+            <td><input name="target" id="target" type="text" value="{{data[0][3]}}"></td>
+        </tr>
+    </table>
+    <input name="id" id="id" type="hidden" value="{{data[0][0]}}">
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+{% endblock %}

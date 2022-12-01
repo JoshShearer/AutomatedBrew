@@ -1,0 +1,33 @@
+{% extends "ExtendedMenu.html" %}
+
+{% block title %}Overview{% endblock %}
+{% block content %} 
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Link</th>
+                        <th>Target</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for link in links %}
+                    <tr>
+                        <td>{{link[0]}}</td>
+                        <td>{{link[1]}}</td>
+                        <td>{{link[2]}}</td>
+                        <td>{{link[3]}}</td>
+                        <td>
+                            <a href="/ExtendedMenu/edit/{{link[0]}}" class="edit" title="Edit" data-toggle="tooltip"><span class="glyphicon glyphicon-edit"></span></a>
+                            <a href="/ExtendedMenu/delete/{{link[0]}}" class="delete" title="Delete" data-toggle="tooltip"><span class="glyphicon glyphicon-trash"></span></a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                    
+                </tbody>
+            </table>
+    
+{% endblock %}

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pip" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46f35042-77d2-4cd7-860a-f46c3cf19a42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/craftbeerpiboot" beforeDir="false" afterPath="$PROJECT_DIR$/config/craftbeerpiboot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/config/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/config/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/version.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/actor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/actor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/addon/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/addon/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/addon/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/addon/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/app_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/app_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/base_plugins/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_plugins/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/base_plugins/brew_steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_plugins/brew_steps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/base_plugins/dummy_temp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_plugins/dummy_temp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/base_plugins/fermenter_hysteresis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_plugins/fermenter_hysteresis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/base_plugins/gpio_actor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_plugins/gpio_actor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/base_plugins/hysteresis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_plugins/hysteresis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/base_plugins/one_wire/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_plugins/one_wire/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/buzzer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/buzzer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/baseview.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/baseview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/db_mirgrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/db_mirgrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/hardware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/props.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/props.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/step.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/kettle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/kettle/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/logs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/logs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/logs/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/logs/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/notification/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/notification/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/plugins/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/plugins/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/recipe_import/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/recipe_import/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/recipe_import/beerxml.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/recipe_import/beerxml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/recipe_import/kbh.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/recipe_import/kbh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/recipe_import/restapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/recipe_import/restapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/stats/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/stats/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/bootstrap.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/bootstrap.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ui/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ui/static/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/1_schema_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/update/1_schema_info.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/2_more_buzzer.sql" beforeDir="false" afterPath="$PROJECT_DIR$/update/2_more_buzzer.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/3_port_config.sql" beforeDir="false" afterPath="$PROJECT_DIR$/update/3_port_config.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/empty" beforeDir="false" afterPath="$PROJECT_DIR$/update/empty" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hqHnY3ufEUhbPay6xTR3K2LFus" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mu_code" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="craftbeerpi3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/plugins/LevelSensorUS100" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/plugins/LevelSensorUS100/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Python.__init__" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46f35042-77d2-4cd7-860a-f46c3cf19a42" name="Default Changelist" comment="" />
+      <created>1600731875519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600731875519</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="35" width="1013" height="694" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601581084123">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state x="0" y="35" width="1013" height="694" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.742@0.0.1024.742" timestamp="1601581084123" />
+    <state x="150" y="35" width="716" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/150.0.724.740@150.0.724.740" timestamp="1600733448215" />
+    <state x="325" y="270" width="366" height="202" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600733107581">
+      <screen x="150" y="0" width="724" height="740" />
+    </state>
+    <state x="325" y="270" width="366" height="202" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/150.0.724.740@150.0.724.740" timestamp="1600733107581" />
+    <state x="280" y="175" width="320" height="363" key="FileChooserDialogImpl" timestamp="1603387775121">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state x="280" y="175" width="320" height="363" key="FileChooserDialogImpl/0.0.1024.742@0.0.1024.742" timestamp="1603387775121" />
+    <state x="280" y="196" key="FileChooserDialogImpl/0.26.1024.722@0.26.1024.722" timestamp="1600909135607" />
+    <state x="348" y="174" width="320" height="394" key="FileChooserDialogImpl/150.0.724.740@150.0.724.740" timestamp="1600733097423" />
+    <state width="986" height="220" key="GridCell.Tab.0.bottom" timestamp="1601588629272">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.0.bottom/0.0.1024.742@0.0.1024.742" timestamp="1601588629272" />
+    <state width="986" height="220" key="GridCell.Tab.0.center" timestamp="1601588629267">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.0.center/0.0.1024.742@0.0.1024.742" timestamp="1601588629267" />
+    <state width="986" height="220" key="GridCell.Tab.0.left" timestamp="1601588629265">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.0.left/0.0.1024.742@0.0.1024.742" timestamp="1601588629265" />
+    <state width="986" height="220" key="GridCell.Tab.0.right" timestamp="1601588629269">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.0.right/0.0.1024.742@0.0.1024.742" timestamp="1601588629269" />
+    <state width="986" height="220" key="GridCell.Tab.1.bottom" timestamp="1601588629280">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.1.bottom/0.0.1024.742@0.0.1024.742" timestamp="1601588629280" />
+    <state width="986" height="220" key="GridCell.Tab.1.center" timestamp="1601588629276">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.1.center/0.0.1024.742@0.0.1024.742" timestamp="1601588629276" />
+    <state width="986" height="220" key="GridCell.Tab.1.left" timestamp="1601588629274">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.1.left/0.0.1024.742@0.0.1024.742" timestamp="1601588629274" />
+    <state width="986" height="220" key="GridCell.Tab.1.right" timestamp="1601588629278">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state width="986" height="220" key="GridCell.Tab.1.right/0.0.1024.742@0.0.1024.742" timestamp="1601588629278" />
+    <state x="150" y="92" width="724" height="557" key="SettingsEditor" timestamp="1600733370490">
+      <screen x="150" y="0" width="724" height="740" />
+    </state>
+    <state x="150" y="92" width="724" height="557" key="SettingsEditor/150.0.724.740@150.0.724.740" timestamp="1600733370490" />
+    <state x="352" y="305" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603463824064">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state x="352" y="305" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1024.742@0.0.1024.742" timestamp="1603463824064" />
+    <state x="474" y="100" width="460" height="603" key="find.popup" timestamp="1603415030442">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state x="474" y="100" width="460" height="603" key="find.popup/0.0.1024.742@0.0.1024.742" timestamp="1603415030442" />
+    <state x="258" y="162" width="505" height="399" key="search.everywhere.popup" timestamp="1603387457849">
+      <screen x="0" y="0" width="1024" height="742" />
+    </state>
+    <state x="258" y="162" width="505" height="399" key="search.everywhere.popup/0.0.1024.742@0.0.1024.742" timestamp="1603387457849" />
+  </component>
+</project>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ExtendedMenu</title>
+<link rel="stylesheet" href="{{ url_for('ExtendedMenu.static', filename='css/bootstrap.min.css') }}">
+
+<script src="{{ url_for('ExtendedMenu.static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('ExtendedMenu.static', filename='js/bootstrap.min.js') }}"></script>
+
+
+<style type="text/css">
+    body {
+        color: #404E67;
+        background: #F5F7FA;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.table-wrapper {
+		width: 700px;
+		margin: 30px auto;
+        background: #fff;
+        padding: 20px;	
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .table-title {
+        padding-bottom: 10px;
+        margin: 0 0 10px;
+    }
+    .table-title h2 {
+        margin: 6px 0 0;
+        font-size: 22px;
+    }
+    .table-title .add-new {
+        float: right;
+		height: 30px;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: none;
+		min-width: 100px;
+		border-radius: 50px;
+		line-height: 13px;
+    }
+	.table-title .add-new i {
+		margin-right: 4px;
+	}
+    table.table {
+        table-layout: fixed;
+    }
+    table.table tr th, table.table tr td {
+        border-color: #e9e9e9;
+    }
+    table.table th i {
+        font-size: 13px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    table.table th:last-child {
+        width: 100px;
+    }
+    table.table td a {
+		cursor: pointer;
+        display: inline-block;
+        margin: 0 5px;
+		min-width: 24px;
+    }    
+	table.table td a.add {
+        color: #27C46B;
+    }
+    table.table td a.edit {
+        color: #FFC107;
+    }
+    table.table td a.delete {
+        color: #E34724;
+    }
+    table.table td i {
+        font-size: 19px;
+    }
+	table.table td a.add i {
+        font-size: 24px;
+    	margin-right: -1px;
+        position: relative;
+        top: 3px;
+    }    
+    table.table .form-control {
+        height: 32px;
+        line-height: 32px;
+        box-shadow: none;
+        border-radius: 2px;
+    }
+	table.table .form-control.error {
+		border-color: #f50000;
+	}
+	table.table td .add {
+		display: none;
+	}
+</style>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<div class="container">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-6"><h2>Manage <b>Menu</b></h2></div>
+                    <div class="col-sm-6">
+                        <a href="/" class="btn btn-success"><span class="glyphicon glyphicon-retweet"></span> CraftBeerPi</a>
+                        <a href="/ExtendedMenu/new" class="btn btn-info"><span class="glyphicon glyphicon-plus"></span> Add New Link</a>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="col-sm-12">
+                        <p>Add, delete and edit your custom links. <b>Every change requires a restart of CraftBeerPi</b> and sometimes a <a href="https://www.lifewire.com/how-to-clear-cache-2617980" target="_blank">clean cache</a></p>
+                        <p>A link like "/BetterChart" is a <a href="https://github.com/Manuel83/craftbeerpi3/wiki/Custom-Web-Endpoint" target="_blank">custom web endpoint</a> on your RaspberryPi.</p>
+                        <p>A link like http://www.google.de is a link to a different server.</p>
+                        <p>The target can be "_self" for the same tab or "_blank" for a new tab.</p>
+                    </div>
+                </div>
+            </div>
+
+    <h1>{% block title %} {% endblock %}</h1>
+    {% block content %} {% endblock %}
+            </div>
+    </div> 
+</body>
+</html>                            
